@@ -1,0 +1,18 @@
+version: '3'
+dotenv: ['.env']
+tasks:
+  simulator:
+    cmds:
+    - "{{.SDK_BIN}}/connectiq"
+
+  build:
+    cmds:
+    - "{{.SDK_BIN}}/monkeyc -f {{.JUNGLE_FILE}} -o ./bin/{{.APP_NAME}}.prg -y {{.DEV_KEY}} -d {{default .DEVICE .CLI_ARGS}}"
+
+  dev:
+    deps: 
+    - task: build
+    cmds:
+    - "{{.SDK_BIN}}/monkeydo bin/{{.APP_NAME}}.prg {{default .DEVICE .CLI_ARGS}}"
+  
+  
