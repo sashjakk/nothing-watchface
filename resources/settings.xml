@@ -1,0 +1,8 @@
+<settings>
+    <setting propertyKey="@Properties.layout" title="@Strings.layout">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.horizontal</listEntry>
+            <listEntry value="1">@Strings.vertical</listEntry>
+        </settingConfig>
+    </setting>
+</settings>

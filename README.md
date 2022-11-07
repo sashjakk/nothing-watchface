@@ -16,11 +16,14 @@ Use Taskfile to ease cli interface:
 
 ## Screenshots
 
-| Venu 2 Plus | Venu SQ 2 |
-|:-:|:-:|
-|<img src="screenshots/venu2plus-screenshot.png" alt="venu2plus" width="320"/>| <img src="screenshots/venusq2-screenshot.png" alt="venusq2" width="320"/>|
+| Venu 2 Plus | Venu SQ 2 | Venu 2S |
+|:-:|:-:|:-:|
+|<img src="screenshots/venu2plus-screenshot.png" alt="venu2plus" width="320"/>|<img src="screenshots/venusq2-screenshot.png" alt="venusq2" width="320"/>|<img src="screenshots/venu2s-vertical-screenshot.png" alt="venu2s" width="320"/>
 
 ## Versions
+
+### 0.0.3
+- New: vertical layout support
 
 ### 0.0.1
 - Initial watchface implementation

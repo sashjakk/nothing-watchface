@@ -1,3 +1,7 @@
 <strings>
     <string id="AppName">nothing-watchface</string>
+    
+    <string id="layout">Layout</string>
+    <string id="horizontal">Horizontal</string>
+    <string id="vertical">Vertical</string>
 </strings>

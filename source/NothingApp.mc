@@ -16,6 +16,9 @@ class NothingApp extends Application.AppBase {
         return [ new NothingView() ] as Array<Views or InputDelegates>;
     }
 
+    public function onSettingsChanged() as Void {
+        WatchUi.requestUpdate();
+    }
 }
 
 function getApp() as NothingApp {
