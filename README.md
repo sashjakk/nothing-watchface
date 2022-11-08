@@ -4,6 +4,10 @@
 
 Nothing Phone (1) inspired watchface. All numbers made from simple dots drawn on canvas, no custom fonts required. Dots size is chosen automatically based on screen size.
 
+
+[<br/><img src="images/connect-iq-badge.svg" alt="connect-iq" height="45" href="https://apps.garmin.com/en-US/apps/bcce4814-fc01-49f5-9605-1acdb6a0a8cf"/><br/><br/>
+](https://apps.garmin.com/en-US/apps/bcce4814-fc01-49f5-9605-1acdb6a0a8cf)
+
 ## Build
 
 Use Taskfile to ease cli interface:
@@ -18,7 +22,7 @@ Use Taskfile to ease cli interface:
 
 | Venu 2 Plus | Venu SQ 2 | Venu 2S |
 |:-:|:-:|:-:|
-|<img src="screenshots/venu2plus-screenshot.png" alt="venu2plus" width="320"/>|<img src="screenshots/venusq2-screenshot.png" alt="venusq2" width="320"/>|<img src="screenshots/venu2s-vertical-screenshot.png" alt="venu2s" width="320"/>
+|<img src="images/venu2plus-screenshot.png" alt="venu2plus" width="320"/>|<img src="images/venusq2-screenshot.png" alt="venusq2" width="320"/>|<img src="images/venu2s-vertical-screenshot.png" alt="venu2s" width="320"/>
 
 ## Versions
 
