@@ -26,6 +26,9 @@ Use Taskfile to ease cli interface:
 
 ## Versions
 
+### 0.0.4
+- Add more supported devices
+
 ### 0.0.3
 - New: vertical layout support
 
