@@ -26,6 +26,9 @@ Use Taskfile to ease cli interface:
 
 ## Versions
 
+### 0.0.5
+- Add support for Venu 3 & Venu 3S
+
 ### 0.0.4
 - Add more supported devices
 
